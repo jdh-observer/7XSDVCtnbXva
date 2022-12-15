@@ -1,5 +1,7 @@
 # Abstract
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jdh-observer/7XSDVCtnbXva/HEAD)
+
 The turn of the millennium saw significant shifts in British social security and employment policy for sick and disabled people. On the one hand, European and anti-discrimination laws gave individuals greater protections. On the other, active-labour-market policies from the in-coming Labour government restricted access to disability-related social security; while employers were becoming increasingly concerned with how to manage absenteeism as flexible and “lean” employment practices led businesses to become even more intolerant of employees taking sick leave. Web archives offer a useful window onto how British citizens understood these processes. Workers who directly experienced sickness systems left evidence of their opinions on blogs and message boards. But so too did middle managers, as well as friends and relatives of those who had to negotiate sickness-related bureaucracies.
 
 This article combines evidence from the Internet Archive with journal articles, newspapers, and government procedural papers to show how New Labour’s sickness and disability policies fit within the longer history of the British welfare state. By adding archived web pages to the “traditional” sources in the writing of political, social, and cultural histories of Britain, it argues that new insights can be gained not just on how citizens experienced the welfare state but also how they understood changes relative to a remembered past.
