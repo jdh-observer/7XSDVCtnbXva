@@ -234,7 +234,7 @@ I hope I have demonstrated this respect in this study. The material here has enr
 
 See below the list of Internet Archive webpages in the corpus used in this article.
 
-```python tags=["table-2", "anchor-citations"]
+```python jdh={"object": {"source": ["List of Internet Archive"]}} tags=["table-2", "anchor-citations"]
 import pandas as pd
 
 df = pd.read_csv("script/citations.csv", sep=r'[()]', header=None, engine='python')
@@ -243,5 +243,5 @@ df
 
 Primary and secondary literature.
 
-
+<!-- #region tags=["hidden"] -->
 <div class="cite2c-biblio"></div>
