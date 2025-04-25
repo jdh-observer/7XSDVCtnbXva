@@ -236,10 +236,16 @@ See below the list of Internet Archive webpages in the corpus used in this artic
 
 ```python jdh={"object": {"source": ["List of Internet Archive"]}} tags=["table-2", "anchor-citations", "data-table"]
 import pandas as pd
+from IPython.display import HTML
 
 df = pd.read_csv("script/citations.csv", sep=r'[()]', header=None, engine='python')
-df
+df.columns = ['URL']
+# Convert the URL column to clickable links
+df['URL'] = df['URL'].apply(lambda x: f'<a href="{x}" target="_blank">{x}</a>')
+# Display the DataFrame as HTML
+display(HTML(df.to_html(escape=False)))
 ```
+
 
 Primary and secondary literature.
 
