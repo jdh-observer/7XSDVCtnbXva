@@ -15,17 +15,19 @@ code: 3
 ## Kernel Checks: 
 
 > [!CAUTION]
-> Error: **runtime.txt** is missing
+ > Error: Python versions don't match. The notebook is using **python-3.12.9**, when **python-3.8** is required.
 
+> [!TIP]
+ > Try changing **runtime.txt** to resolve the error above.
 
 ### Citations Found with problem:
 
 
 ### Check Output Sizes and Rules
 - Table found in output of cell 39
-> First words of input cell: import pandas as pd df
+> First words of input cell: import pandas as pd from
 
-Total output size: 618.70 KB
+Total output size: 679.86 KB
 Total number of images: 0
 Total number of tables: 1
 Total number of audios: 1
@@ -43,7 +45,7 @@ Total number of audios: 1
 | Output type | Presence |
 | --- | --- |
 | display_data | True |
-| execute_result | True |
+| execute_result | False |
 
 | Tag | Cell | Remark |
 | --- | --- | --- |
@@ -52,6 +54,8 @@ Total number of audios: 1
 
 
 ### Check HTML
+- Cell 39 - Encountered a start tag: a
+- Cell 39 - Encountered an end tag: a
 
 
 ### Check JavaScript
@@ -79,8 +83,9 @@ No JavaScript code found in output cells.
 - Cell 26: Tags: ['hermeneutics']
 - Cell 27: Tags: ['table-1', 'hermeneutics']
 - Cell 28: Tags: ['hermeneutics']
-- Cell 39: Tags: ['table-2', 'anchor-citations']
+- Cell 39: Tags: ['table-2', 'anchor-citations', 'data-table']
   - Invalid tag: anchor-citations
+- Cell 41: Tags: ['hidden']
 > [!WARNING]
 > The following tags are missing or invalid
 
